@@ -3,7 +3,7 @@ import Home from './pages/Home'
 
 export default function App() {
   return (
-    <div className='bg-amber-200'>
+    <div className='bg-black'>
       
       <Home/>
     </div>
