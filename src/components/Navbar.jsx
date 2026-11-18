@@ -11,7 +11,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
-    { name: 'Find Work', href: '/FindWork' },
+    { name: 'Find Work', href: '/find-work' },
     { name: 'Find Talent', href: '#talent' },
     { name: 'How It Works', href: '#how-it-works' },
     { name: 'About Us', href: '#about' },

@@ -15,12 +15,12 @@ export default function App() {
           <div className="min-h-screen bg-white">
             <Navbar />
             <Home />
-            <FindWork />
             <Footer />
           </div>
         }
       />
       <Route path="/login" element={<Login />} />
+      <Route path="/find-work" element={<FindWork />} />
     </Routes>
   )
 }
