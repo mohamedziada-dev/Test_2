@@ -12,12 +12,26 @@ export default function Home() {
   return (
 
 
-    <div className="h-screen bg-amber-800 flex flex-col gap-5" >
+    <div className="h-screen bg-amber-800 " >
         {/* HomaPage */}
         <p className="text-7xl text-center items-center"> {name}</p>
-        <button onClick={changeName} className="bg-gray-400 text-black"> 
-          change name
-        </button>
+       
+<button
+  onClick={changeName}
+  className="px-5 py-3 rounded-xl  mt-10
+  bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600
+  text-white font-bold text-lg tracking-wide
+  shadow-lg shadow-indigo-500/40
+  hover:from-purple-700 hover:via-indigo-700 hover:to-blue-700
+  hover:shadow-xl hover:shadow-indigo-500/60
+  hover:-translate-y-1 hover:scale-105
+  active:scale-95
+  transition-all duration-300 ease-in-out
+  cursor-pointer"
+>
+  Change Name
+</button>
+
     </div>
   )
 }
