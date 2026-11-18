@@ -1,8 +1,9 @@
 
 export default function Home() {
   return (
-    <div>
-        <p className="flex text-7xl text-center items-center justify-center h-screen text-black">Home Pages</p>
+    <div  className="flex flex-col text-7xl text-center items-center justify-center h-screen text-black">
+        <p>Home Pages</p>
+        <p className="text-5xl text-gray-700">this is the first page</p>
     </div>
   )
 }
