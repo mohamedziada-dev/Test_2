@@ -4,7 +4,7 @@ export default function Home() {
     <div  className="flex flex-col text-7xl text-center items-center justify-center h-screen text-black">
 
         {/* HomaPage */}
-        <p className="text-7xl text-center items-center">Home </p>
+        <p className="text-7xl text-center items-center">Mohamed Ziada </p>
     </div>
   )
 }
