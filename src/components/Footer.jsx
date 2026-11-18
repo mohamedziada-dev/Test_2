@@ -13,6 +13,8 @@ import {
   FaInstagram
 } from 'react-icons/fa6';
 
+const currentYear = new Date().getFullYear();
+
 export default function Footer() {
   const socialLinks = [
     { icon: FaGithub, link: '#', name: 'GitHub' },
@@ -126,7 +128,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
 
           <p>
-            © {new Date().getFullYear()} FreelanceHub. All rights reserved.
+            © {currentYear} FreelanceHub. All rights reserved.
           </p>
 
           <a

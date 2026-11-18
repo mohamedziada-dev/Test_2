@@ -4,8 +4,7 @@ import {
   BriefcaseBusiness,
   Menu,
   X,
-  Search,
-  ChevronDown
+  Search
 } from 'lucide-react';
 
 export default function Navbar() {
@@ -50,7 +49,7 @@ export default function Navbar() {
             </button>
 
             <a
-              href="#login"
+              href="/login"
               className="text-sm font-semibold text-slate-700 hover:text-blue-600 transition"
             >
               Log In
@@ -90,7 +89,7 @@ export default function Navbar() {
             ))}
 
             <div className="flex flex-col gap-3 pt-4 border-t border-slate-100">
-              <a href="#login" className="text-sm font-semibold text-slate-700">
+              <a href="/login" className="text-sm font-semibold text-slate-700">
                 Log In
               </a>
 
